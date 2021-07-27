@@ -6,11 +6,11 @@
 
 console.log(1);
 
-function esperar2segundos(cb) {
+function esperar2segundos(callback) {
     console.log(2)
     setTimeout(() => {
         console.log(3)
-       cb()
+       callback()
     }, 2000);
 }
 
